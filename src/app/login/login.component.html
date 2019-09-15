@@ -1,1 +1,35 @@
-<p>login works!</p>
+<section id="background-container">
+    <nav class="nav nav-pills">
+        <ul class="nav-menu">
+            <li class="menu-active"><a [routerLink]="['/login']">{{ 'login' }}</a></li>
+            <li><a [routerLink]="['/register']">{{ 'Register' }}</a></li>
+            <li><a [routerLink]="['/about-us']">About Us</a></li>
+        </ul>
+    </nav>
+    <div class="row justify-content-md-center">
+        <div class="col-md-6">
+            <img src="../../assets/images/logotruck.png" alt="TruckAge Logo" id="logo">
+            <h1>TruckAge</h1>
+            <h3>Welcome to Truckage</h3>
+            <h3>Rent a Truck on few clicks.</h3>
+        </div>
+        <div class="col-md-6" id="login">
+            <div class="login-container">
+                <h1>LogIn Form</h1>
+                <div class="row">
+                    <div class="column">
+                        <img src="../../assets/images/iconfinder_3_social_2609563.png" alt="Google" class="login-icon">
+                    </div>
+                    <div class="column">
+                        <img src="../../assets/images/iconfinder_facebook_386622.png" alt="Facebook" class="login-icon">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer id="footer">
+    <div class="copyright">
+        &copy; Copyright <strong>Truckage</strong>. All Rights Reserved.2019
+    </div>
+</footer>
